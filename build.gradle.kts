@@ -19,9 +19,14 @@ repositories {
 	mavenCentral()
 }
 
+springBoot {
+	mainClass = "no.webstep.openapi_example.OpenApiExampleApplicationKt"
+}
+
 dependencies {
 	implementation("org.springframework.boot:spring-boot-starter")
 	implementation("org.springframework.boot:spring-boot-starter-web")
+	implementation("org.springframework.boot:spring-boot-starter-security")
 	implementation("org.springframework.boot:spring-boot-starter-validation")
 	implementation("org.jetbrains.kotlin:kotlin-reflect")
 	implementation("io.swagger.core.v3:swagger-annotations:2.2.22")

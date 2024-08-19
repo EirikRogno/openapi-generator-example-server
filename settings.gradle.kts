@@ -1,1 +1,2 @@
-rootProject.name = "openapi-example"
+rootProject.name = "openapi-spring-example"
+
